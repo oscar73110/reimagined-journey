@@ -1,0 +1,169 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+header {
+    background: #333333;
+    height: 110px;
+    width: 1290px;
+    margin: 0 auto;
+}
+
+#descripcion {
+    background: #fcd733;
+}
+
+#planeacion {
+    background: #f2f3f3;
+}
+
+#uno, #dos, #tres, #cuatro {
+    width: 50%;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+#uno {
+    background: #666666;
+    color: white;
+}
+#dos {
+    background: #fcd733;
+}
+
+.bulletAmarilloLink {
+    background: url(../images/bullet_triangular.svg) no-repeat 0 2px;
+    background-size: 14px;
+    padding-left: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+#programa {
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+
+ol {    
+    list-style:none;
+}
+
+.horario {
+    border:solid 1px orange;
+}
+.horario h3:first-of-type {
+    background: orange;
+    text-align: center;
+}
+
+
+.contacto {
+    border:solid 1px grey;
+}
+
+/*
+#main {
+    display: flex;
+    width: 1290px;
+    margin: 0 auto;
+} 
+*/
+
+#main {
+    display: block;
+    width: 1290px;
+    margin: 0 auto;
+} 
+
+#content {
+    width: 70%;
+    float: left;
+}
+
+aside {
+    width: 30%;
+    float: left;
+}
+
+
+@media (max-width: 1024px) {
+    header {
+        height: 110px;
+        width: 100%;
+    }
+    
+    #main {
+        width: 100%;
+        /*
+        flex-wrap: wrap;
+        */
+    }
+     
+    #content {
+        width: 100%;
+    }
+    
+    aside {
+        width: 100%;
+    }
+
+    #uno, #dos, #tres, #cuatro {
+        width: 100%;
+    }
+  }
+/*
+
+#logo {
+    background: url(../images/programacion_web.svg) no-repeat;
+    display: block;
+    height: 40px;
+}
+
+
+.listadoAmarillo {
+    list-style: none;
+    padding-left: 0;
+}
+.listadoAmarillo li {
+    position: relative;
+    padding-left: 20px;
+}
+.listadoAmarillo li:before {
+    content: '';
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    background-image: url(../images/bullet_triangular.svg);
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.bulletAmarilloLink {
+    background: url(../images/bullet_triangular.svg) no-repeat 0 2px;
+    background-size: 14px;
+    padding-left: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.bulletTriangular {
+    height:14px;
+    padding-right: 6px;
+}
+
+.bulletAmarilloDiv {
+    background: url(../images/bullet_triangular.svg) no-repeat 0 2px;
+    display: inline-block;
+    background-size: 14px;
+    padding-left: 4px;
+    width: 16px;
+    height: 16px;
+}
+
+
+*/

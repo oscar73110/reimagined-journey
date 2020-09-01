@@ -1,0 +1,213 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+header {
+    background: #333333;
+    height: 110px;
+    max-width: 1290px;
+    margin:0 auto;
+    padding-left: 16px;
+    box-sizing: border-box;
+}
+
+h3 {
+    font-size: 1.125em;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h4 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+#linkedin {
+    max-width: 1290px;
+    margin:0 auto;
+    padding-left: 16px;
+    box-sizing: border-box;
+}
+
+.descripcion{
+    min-height: 30px;
+    font-family: 'Roboto', sans-serif;
+    background: #fcd733;
+    width: 33%;
+    padding-left: 13px;
+    padding-top: 10px;
+}
+
+.descripcion h1{
+    font-size: 1.125em;
+    margin: 0;
+} 
+
+#planeacion{
+    background: #f2f3f3;
+    padding: 13px;
+    font-family: 'Libre Caslon Display', serif;
+} 
+
+#planeacion h2, #planeacion h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bulletAmarilloLink {
+    background: url(../images/bullet_triangular.svg) no-repeat 0 2px;
+    padding-left: 20px;
+    background-size: 14px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 0.938em;
+}
+
+#programa {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Libre Caslon Display', serif;
+}
+#uno {
+    background: #666666;
+    width: 50%;
+    padding:16px;
+    box-sizing: border-box;
+    color: white;
+}
+#dos {
+    background: #fcd733;
+    width: 50%;
+    padding:16px;
+    box-sizing: border-box;
+}
+#tres {
+    background: #cccccc;
+    width: 50%;
+    padding:16px;
+    box-sizing: border-box;
+}
+#cuatro {
+    background: #fde785;
+    width: 50%;
+    padding:16px;
+    box-sizing: border-box;
+}
+
+ul li {
+    margin-left: -20px;
+}
+
+ol {
+    list-style: none;
+}
+
+
+ol li {
+    margin-left: -38px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1290px;
+    margin: 0 auto;
+}
+
+#algo {
+    width: 70%;
+}
+
+aside {
+    width: 30%;
+    flex-direction: row-reverse;
+} 
+
+#horarios {
+    border: solid 2px #fcd733;
+} 
+#horarios h3 {
+    background: #fcd733;
+    color: black;
+    text-align: center;
+}
+#horarios h4 {
+    color: black;
+    text-align: center;
+}
+#horarios p {
+    text-align: center;
+}
+
+#contacto {
+    border: solid 2px #666666;
+    text-align: center;
+} 
+#contacto h3 {
+    background: #666666;
+    color: white;
+    text-align: center;
+}
+#contacto a {
+    color: black;
+    text-decoration: none;
+}
+
+footer {
+    background: rgb(41, 41, 41);
+    color: white;
+    font-size: .8em;
+    text-align: center;
+    width: 100%;
+    height: 20px;
+    padding-top: 7px;;
+}
+
+
+@media screen and (max-width: 1024px) {
+    header, main, #algo, aside {
+        width: 100%;
+    }
+
+    .descripcion{
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    #uno, #dos, #tres, #cuatro {
+        width: 100%;
+    }
+    #linkedin {display: none;}
+
+    .descripcion{
+        margin-top: 10px;
+        width: 50%;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        font-size: 1.125em;
+    }
+    .descripcion h1 {
+        font-size: 0.938em;
+    }
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
